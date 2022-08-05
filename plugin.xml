@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         point="org.grits.toolbox.core.preferencePages">
+      <page
+            name="Profile Databases"
+            class="org.grits.toolbox.tools.ms.profiler.preference.DatabasePreferencePage"
+            id="org.grits.toolbox.tools.ms.profiler.databases">
+      </page>
+   </extension>
+   <extension
+         id="org.grits.toolbox.tools.ms.profiler.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
+
+</plugin>

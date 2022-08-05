@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_VyoLAIHgEeedGYHv5WalTA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_U0W-kIIlEeehjMrl_jqW8w" featurename="children" parentElementId="org.grits.toolbox.core.menu.main.plugins">
+    <elements xsi:type="menu:Menu" xmi:id="_8YFG0IItEeehjMrl_jqW8w" elementId="org.grits.toolbox.tools.ms.profiler.menu.main" label="MS Profile Database" iconURI="">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_Ha6iIIIuEeehjMrl_jqW8w" elementId="org.grits.toolbox.tools.ms.profiler.handledmenuitem.run" label="Manage Databases" tooltip="Run Ms Profile Database to Manage Databases" command="_IXkw8IIpEeehjMrl_jqW8w"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_CuzKkIIpEeehjMrl_jqW8w" featurename="commands" parentElementId="org.grits.toolbox.core.application">
+    <elements xsi:type="commands:Command" xmi:id="_IXkw8IIpEeehjMrl_jqW8w" elementId="org.grits.toolbox.tools.ms.profiler.command.manageMsDatabase" commandName="Ms Database Annotate"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_jEK58IIqEeehjMrl_jqW8w" featurename="handlers" parentElementId="org.grits.toolbox.core.trimmedwindow.main">
+    <elements xsi:type="commands:Handler" xmi:id="_Bi_z4IIrEeehjMrl_jqW8w" elementId="org.grits.toolbox.tools.ms.profiler.handler.manageMsDatabase" contributionURI="bundleclass://org.grits.toolbox.tools.ms.profiler/org.grits.toolbox.tools.ms.profiler.handler.ManageDbEntriesHandler" command="_IXkw8IIpEeehjMrl_jqW8w"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_7KgyYIIrEeehjMrl_jqW8w" featurename="descriptor" parentElementId="org.grits.toolbox.core.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_83NkwIIrEeehjMrl_jqW8w" elementId="org.grits.toolbox.tools.ms.profiler.partdescriptor.overview" label="Manage Db Entries Overview" tooltip="Overview Of Database Entries"/>
+  </fragments>
+</fragment:ModelFragments>
